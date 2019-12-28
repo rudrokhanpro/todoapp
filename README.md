@@ -1,4 +1,4 @@
-# vue-learn
+# VueJS Todo App
 
 ## Project setup
 ```
