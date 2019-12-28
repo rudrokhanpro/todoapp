@@ -1,15 +1,13 @@
 <template lang="pug">
-  #app
-    TodoApp
 </template>
 
 <script>
-import TodoApp from './components/TodoApp.vue';
+import Todo from './Todo.vue';
 
 export default {
-  name: 'App',
+  name: 'TodoList',
   components: {
-    TodoApp,
+    Todo,
   },
   data() {
     return {
@@ -19,6 +17,6 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 
 </style>
